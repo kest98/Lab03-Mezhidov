@@ -150,17 +150,29 @@
 
 
 
-Console.WriteLine("Инкремент в выражении");
+// Console.WriteLine("Инкремент в выражении");
 
-int firstNumber = 10;
-Console.WriteLine($"firstNumber++ выводит: {firstNumber++}");
-Console.WriteLine($"После этого firstNumber = {firstNumber}");
-// Так как ++ стоит после переменной, сначала выведет 10, а потом увеличит это число на 1
-Console.WriteLine();
+// int firstNumber = 10;
+// Console.WriteLine($"firstNumber++ выводит: {firstNumber++}");
+// Console.WriteLine($"После этого firstNumber = {firstNumber}");
+// // Так как ++ стоит после переменной, сначала выведет 10, а потом увеличит это число на 1
+// Console.WriteLine();
 
-int secondNumber = 10;
-Console.WriteLine($"++secondNumber выводит: {++secondNumber}");
-Console.WriteLine($"После этого secondNumber = {secondNumber}");
-//Так как ++ до переменной, выведет сразу измененное число 11
+// int secondNumber = 10;
+// Console.WriteLine($"++secondNumber выводит: {++secondNumber}");
+// Console.WriteLine($"После этого secondNumber = {secondNumber}");
+// //Так как ++ до переменной, выведет сразу измененное число 11
+
+
+Console.WriteLine("Калькулятор скидки");
+Console.Write("Сумма покупки:");
+double summa = double.Parse(Console.ReadLine());
+
+Console.Write("Есть карта постоянного клиента(1/0)?");
+
+
+Console.Write("Количество товаров в чеке: ");
+int kolich = int.Parse(Console.ReadLine());
+
 
 
