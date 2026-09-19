@@ -138,10 +138,29 @@
 
 
 
-Console.Write("Введите целое число: ");
 
-string check = Console.ReadLine();
-int number = int.Parse(check);
-bool isEven = (number % 2 == 0);
 
-Console.WriteLine($"Четное число {isEven}");
+// Console.Write("Введите целое число: ");
+
+// string check = Console.ReadLine();
+// int number = int.Parse(check);
+// bool isEven = (number % 2 == 0);
+
+// Console.WriteLine($"Четное число {isEven}");
+
+
+
+Console.WriteLine("Инкремент в выражении");
+
+int firstNumber = 10;
+Console.WriteLine($"firstNumber++ выводит: {firstNumber++}");
+Console.WriteLine($"После этого firstNumber = {firstNumber}");
+// Так как ++ стоит после переменной, сначала выведет 10, а потом увеличит это число на 1
+Console.WriteLine();
+
+int secondNumber = 10;
+Console.WriteLine($"++secondNumber выводит: {++secondNumber}");
+Console.WriteLine($"После этого secondNumber = {secondNumber}");
+//Так как ++ до переменной, выведет сразу измененное число 11
+
+
